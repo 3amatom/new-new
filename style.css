@@ -28,18 +28,89 @@ body{
     border:1px solid white;
 
 }
-
-
-
-
-
 .T{
-    text-shadow: #f3ebeb 1px 0 10px;
-    font-family: 'Yusei Magic', sans-serif;
-    color:rgb(255, 255, 255);
+    color: #fff;
 }
+
+
+
+
+
+
+
+
+
 
 .D{
     font-family: 'Mukta Vaani', sans-serif;
     color: rgb(255, 255, 255);
+   
 }
+
+
+
+.mim {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 4s;
+    animation-duration:3s ;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+        .L {
+             color:ivory;
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+            -webkit-animation-duration: 1s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            }
+            @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+            }
+            @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+            } 
